@@ -1,7 +1,28 @@
+.body{
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #fff;
+    color: #444452;
+    font-family: Apercu,"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
+    line-height: 1.5;
+    width: 100%;
+}
 .view{
-    height: 100vh;
+    padding: 100px 100px;
+    height: 80vh;
+    /* display: -webkit-box;
+    display: -ms-flexbox; */
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    /* -ms-flex-direction: column; */
+    flex-direction: column;
+    /* -ms-flex-pack: distribute; */
     justify-content: space-around;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 .section {
     height: fit-content;
@@ -57,6 +78,7 @@ ul li.active {
 .previous {
   /* padding: 15px 10px; */
   /* border-radius: 6px; */
+  
   align-content: flex-end;
   background: deepskyblue;
   color: white;
