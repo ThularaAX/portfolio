@@ -1,14 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <title>Thulara Portfolio</title>
-</head>
-<body>
-    <nav>
+  </head>
+  <body>
+    <!-- <nav>
         <label for="toggle">Light/dark</label>
         <input name="toggle" type="checkbox"/>
-    </nav>
-</body>
+    </nav> -->
+    <div class="view">
+      <ul class="nav">
+        <li class="active" data-cont="hero-section">Hi</li>
+        <li data-cont="background">Background</li>
+        <li data-cont="skills">Skills</li>
+      </ul>
+
+      <section id="hero-section" class="section section-one active">
+        <h2>Hi..</h2>
+      </section>
+      <section id="background" class="section section-two">
+        <h2>Background</h2>
+      </section>
+      <section id="skills" class="section section-three">
+        <h2>Skills..</h2>
+      </section>
+      <div class="footer">
+        <img class="cat" src="cat.gif" />
+        <button class="previous disable" id="previous">Previous</button>
+        <button class="next" id="next">Next</button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
 </html>
