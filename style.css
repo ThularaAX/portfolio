@@ -90,6 +90,15 @@
     display: block;
 }
 
+.content-expi{
+    display: grid;
+}
+
+.projects-img{
+    width: 650px;
+    max-width: 700px;
+    vertical-align: bottom;
+}
 .li-heading{
     font-weight: 700;
     font-size: 1rem;
