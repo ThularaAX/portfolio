@@ -131,6 +131,18 @@ ul li.active {
     text-decoration: underline;
     opacity: 3 !important;
 }
+.technologies{
+    display: flex;
+    margin: 3px 3px 3px 0;
+    font-family: Inconsolata,monospace;
+    font-size: .75rem;
+    font-weight: 700;
+    padding: 2px 7px;
+    border-radius: 3px;
+    color: #29333c;
+    border: 1px solid #29333c;
+    background: 0 0; 
+}
 .footer {
     display: flex;
     flex-wrap: wrap;
