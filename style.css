@@ -20,7 +20,7 @@
     width: 100%;
 }
 .view {
-    padding: 100px 100px;
+    padding: 50px 100px;
     height: 80vh;
     /* display: -webkit-box;
     display: -ms-flexbox; */
@@ -36,6 +36,12 @@
     max-width: 1440px;
     margin: 0 auto;
     background-color: #ffffff;
+}
+.nav{
+    background-color: #29333c;
+    margin: 50px;
+    margin-left: 50px;
+    padding-inline-start: 50px; 
 }
 .intro {
     justify-content: center;
@@ -115,6 +121,7 @@
 ul {
     list-style: none;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -145,8 +152,8 @@ ul li.active {
 }
 .footer {
     display: flex;
-    flex-wrap: wrap;
-    align-content: space-around;
+    margin-left: 50%;
+    align-content:center;
     align-items: baseline;
     height: 100px;
 }
